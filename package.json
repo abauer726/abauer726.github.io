@@ -59,7 +59,8 @@
     "react-helmet": "^6.1.0",
     "react-transition-group": "^4.3.0",
     "scrollreveal": "^4.0.5",
-    "styled-components": "^5.3.0"
+    "styled-components": "^5.3.0",
+    "graphql": "15.5.0"
   },
   "devDependencies": {
     "@babel/core": "^7.14.0",
@@ -76,5 +77,8 @@
     "husky": "^6.0.0",
     "lint-staged": "^10.1.2",
     "prettier": "^2.2.1"
+  },
+  "resolutions": {
+    "graphql": "15.5.0"
   }
 }
