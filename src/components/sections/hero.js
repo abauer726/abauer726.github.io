@@ -61,13 +61,15 @@ const Hero = () => {
 
   const one = <h1>Hi, my name is</h1>;
   const two = <h2 className="big-heading">Anna Bauer.</h2>;
-  const three = <h3 className="big-heading">Insert heading.</h3>;
+  const three = <h3 className="big-heading">I create data-driven insights with AI.</h3>;
   const four = (
     <>
       <p>
-        I’m a recent UCSB graduate yata yata {' '}
-        <a href="https://upstatement.com/" target="_blank" rel="noreferrer">
-          Upstatement
+        I'm a machine learning enthusiast with a passion for integrating data science with business
+        strategy. I recently graduated from UC Santa Barbara with degrees in Statistics &amp; Data
+        Science and Economics
+        <a href="https://www.linkedin.com/in/annabauer726/" target="_blank" rel="noreferrer">
+          LinkedIn
         </a>
         .
       </p>
