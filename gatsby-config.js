@@ -3,10 +3,10 @@ const config = require('./src/config');
 module.exports = {
   siteMetadata: {
     title: 'Anna Bauer',
-    description: 'Anna Bauer insert here',
-    siteUrl: 'https://brittanychiang.com', // No trailing slash allowed!
+    description:
+      'Anna Bauer is a machine learning enthusiast with a passion for integrating data science with business strategy.',
+    siteUrl: 'https://brittanychiang.com', // No trailing slash allowed! annachange
     image: '/og.png', // Path to your image you placed in the 'static' folder
-    twitterUsername: '@bchiang7',
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -19,8 +19,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'Brittany Chiang',
-        short_name: 'Brittany Chiang',
+        name: 'Anna Bauer', //may be wrong , might be Brittany Chiang for this and the next line
+        short_name: 'Anna Bauer',
         start_url: '/',
         background_color: config.colors.darkNavy,
         theme_color: config.colors.navy,

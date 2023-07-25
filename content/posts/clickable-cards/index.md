@@ -1,5 +1,5 @@
 ---
-title: Accessible Clickable Cards
+title: Accessible able Cards
 description: Clickable cards with multiple child links
 date: 2021-04-21
 draft: false
