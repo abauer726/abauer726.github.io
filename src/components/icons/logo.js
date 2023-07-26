@@ -7,7 +7,7 @@ const IconLogo = () => (
       <g transform="translate(11.000000, 5.000000)">
         <polygon
           id="Shape"
-          stroke="currentColor"
+          stroke="#e6f1ff"
           strokeWidth="5"
           strokeLinecap="round"
           strokeLinejoin="round"
@@ -15,7 +15,7 @@ const IconLogo = () => (
         />
       </g>
     </g>
-    <text x="15" y="62.5" fill="currentColor" fontSize="50px" fontFamily="Consolas">
+    <text x="15" y="62.5" fill="#e6f1ff" fontSize="50px" fontFamily="Consolas">
       AB
     </text>
   </svg>

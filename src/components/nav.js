@@ -66,7 +66,7 @@ const StyledNav = styled.nav`
     ${({ theme }) => theme.mixins.flexCenter};
 
     a {
-      color: var(--green);
+      color: var(--white);
       width: 42px;
       height: 42px;
       position: relative;
