@@ -256,7 +256,7 @@ const StyledProject = styled.li`
     a {
       width: 100%;
       height: 100%;
-      background-color: var(--green);
+      background-color: none;
       border-radius: var(--border-radius);
       vertical-align: middle;
 
@@ -291,7 +291,7 @@ const StyledProject = styled.li`
     .img {
       border-radius: var(--border-radius);
       mix-blend-mode: multiply;
-      filter: grayscale(100%) contrast(1) brightness(90%);
+      filter: grayscale(30%) contrast(1) brightness(90%);
 
       @media (max-width: 768px) {
         object-fit: cover;
@@ -348,7 +348,7 @@ const Publications = () => {
   return (
     <section id="publications">
       <h2 className="numbered-heading" ref={revealTitle}>
-        My Publication
+        Publications
       </h2>
 
       <StyledProjectsGrid>
@@ -362,7 +362,7 @@ const Publications = () => {
               <StyledProject key={i} ref={el => (revealProjects.current[i] = el)}>
                 <div className="project-content">
                   <div>
-                    <p className="project-overline">Featured Project</p>
+                    <p className="project-overline">Featured Publication</p>
 
                     <h3 className="project-title">
                       <a href={external}>{title}</a>
