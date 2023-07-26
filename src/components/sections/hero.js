@@ -67,25 +67,15 @@ const Hero = () => {
       <p>
         I'm a machine learning enthusiast with a passion for integrating data science with business
         strategy. I recently graduated from UC Santa Barbara with degrees in Statistics &amp; Data
-        Science and Economics
+        Science and Economics.
         <a href="https://www.linkedin.com/in/annabauer726/" target="_blank" rel="noreferrer">
           LinkedIn
         </a>
-        .
       </p>
     </>
   );
-  const five = (
-    <a
-      className="email-link"
-      href="https://www.newline.co/courses/build-a-spotify-connected-app"
-      target="_blank"
-      rel="noreferrer">
-      Check out my course!
-    </a>
-  );
 
-  const items = [one, two, three, four, five];
+  const items = [one, two, three, four];
 
   return (
     <StyledHeroSection>
