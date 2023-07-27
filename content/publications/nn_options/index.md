@@ -11,4 +11,4 @@ tech:
   - Git
 ---
 
-Implementation of sequential and aggregate neural networks as option pricing methods. Results are benchmarked and reproducible, serving as reference points for future research. Publication will be available in the [URCA Journal](https://escholarship.org/uc/urcaj_2022) starting in fall 2023.
+Implementation of sequential and aggregate neural networks as option pricing methods. Results are benchmarked and reproducible, serving as reference points for future research. [Publication](https://drive.google.com/file/d/164fSguM7SaI5YM3wLbETPBRvAUccXXvm/view?usp=drive_link) will be available in the [URCA Journal](https://escholarship.org/uc/urcaj_2022) starting in fall 2023.

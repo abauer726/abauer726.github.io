@@ -1,13 +1,14 @@
 ---
-date: '2018-05-14'
-title: 'Lead Engineer'
-company: 'Upstatement'
-location: 'Boston, MA'
-range: 'May 2018 - Present'
-url: 'https://www.upstatement.com/'
+date: '2024-03-25'
+title: 'Tech Solutions Analyst'
+company: 'Deloitte'
+location: 'San Jose, CA'
+range: 'March 2024'
+url: 'https://www2.deloitte.com/us/en/pages/consulting/solutions/cloud-consulting-services.html'
 ---
 
-- Deliver high-quality, robust production code for a diverse array of projects for clients including Harvard Business School, Everytown for Gun Safety, Pratt Institute, Koala Health, Vanderbilt University, The 19th News, and more
-- Work alongside creative directors to lead the research, development, and architecture of technical solutions to fulfill business requirements
-- Collaborate with designers, project managers, and other engineers to transform creative concepts into production realities for clients and stakeholders
-- Provide leadership within engineering department through close collaboration, knowledge shares, and mentorship
+<font size="+1"> I'm joining Deloitte's <font color=A2ADC6><b>Cloud Engineering</b></font> sector in March 2024. </font> <br><br>
+
+- Translate client needs into solutions that <font color=A2ADC6><b>drive efficiency</b></font> and value into organizations
+- Assess <font color=A2ADC6><b>cloud strategies</b></font> and their ability to meet business needs
+- Help companies prepare for future business growth, helping them <font color=A2ADC6><b>integrate their cloud ecosystems</b></font>, optimize IT costs, and maximize operational efficiencies

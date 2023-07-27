@@ -1,12 +1,13 @@
 ---
-date: '2016-12-21'
-title: 'Software Engineer Co-op'
-company: 'Starry'
-location: 'Boston, MA'
-range: 'July - December 2016'
-url: 'https://starry.com/'
+date: '2021-12-21'
+title: 'Vice President'
+company: 'Data Science UCSB'
+location: 'UC Santa Barbara'
+range: 'June 2021 - June 2023'
+url: 'https://datascienceucsb.org/'
 ---
 
-- Engineered and improved major features of Starry's customer-facing Android web app using ES6, Handlebars, Backbone, Marionette, and CSS
-- Proposed and implemented scalable solutions to issues identified with cloud services and applications responsible for communicating with the Starry Station internet router
-- Collaborated with designers and other developers to ensure thoughtful and consistent user experiences across Starry’s iOS and Android mobile apps
+- Spearheaded <font color=A2ADC6><b>first ever data science career fair</b></font> on campus, connecting over 300 students to 13 companies via 1:1 and group information sessions
+- Managed 16 club officers, acting as <font color=A2ADC6><b>go-to contact</b></font> for project showcase, career fair, learning pipelines, workshops, and alumni events
+- Led project, personal website, and resume workshops
+- Used HTML and CSS to update the club <a href="https://datascienceucsb.org/">website</a> for <font color=A2ADC6><b>600+ members</b></font> to utilize

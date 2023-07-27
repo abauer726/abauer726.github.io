@@ -1,12 +1,12 @@
 ---
-date: '2015-12-21'
-title: 'Creative Technologist Co-op'
-company: 'MullenLowe'
-location: 'Boston, MA'
-range: 'July - December 2015'
-url: 'https://us.mullenlowe.com/'
+date: '2022-5-21'
+title: 'Administrative Data Intern'
+company: 'Santa Barbara County'
+location: 'Santa Barbara, CA'
+range: 'June - December 2021'
+url: 'https://www.countyofsb.org/'
 ---
 
-- Developed, maintained, and shipped production code for client websites primarily using HTML, CSS, Sass, JavaScript, and jQuery
-- Performed quality assurance tests on various sites to ensure cross-browser compatibility and mobile responsiveness
-- Clients included JetBlue, Lovesac, U.S. Cellular, U.S. Department of Defense, and more
+- Utilized R and Excel programs to update and <font color=A2ADC6><b>query project information</b></font> regarding legal transactions
+- Collaborated with the administrative assistant to ensure deliverables were complete by project deadlines
+- Calculated and recorded CPI-based rent increases for over <font color=A2ADC6><b>2,000 commercial leases</b></font> in Santa Barbara County

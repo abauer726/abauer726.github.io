@@ -39,7 +39,7 @@ const StyledText = styled.div`
         content: '▹';
         position: absolute;
         left: 0;
-        color: var(--green);
+        color: var();
         font-size: var(--fz-sm);
         line-height: 12px;
       }
@@ -100,12 +100,12 @@ const StyledPic = styled.div`
     &:before {
       top: 0;
       left: 0;
-      background-color: var(--green);
+      background-color: var();
       mix-blend-mode: screen;
     }
 
     &:after {
-      border: 2px solid var(--green);
+      border: 2px solid var();
       top: 14px;
       left: 14px;
       z-index: -1;
@@ -158,7 +158,7 @@ const About = () => {
               playing water polo.
             </p>
 
-            <p>Some of my skills are:</p>
+            <p>Some of my technical skills are:</p>
           </div>
 
           <ul className="skills-list">

@@ -1,11 +1,13 @@
 ---
-date: '2017-04-01'
-title: 'Developer'
-company: 'Scout Studio'
-location: 'Northeastern University'
-range: 'Spring 2016 & 2017'
-url: 'https://web.northeastern.edu/scout/'
+date: '2022-3-01'
+title: 'Strategy Consultant'
+company: '180 Degrees Consulting'
+location: 'UC Santa Barbara'
+range: 'October 2021 - June 2023'
+url: 'https://www.180dc.org/'
 ---
 
-- Collaborated with other student designers and engineers on pro-bono projects to create new brands, design systems, and websites for organizations in the community
-- Built and delivered technical solutions according to stakeholder business requirements
+- Provided consultancy for non-profit organizations, developing recommendations to <font color=A2ADC6><b>maximize their social impacts</b></font>
+- Developed <font color=A2ADC6><b>data visualizations</b></font> in Python to provide evidence for recommendations and final deliverable content
+- Led resume and data visualization workshops for 40+ consultants
+- Drove partnerships with top consulting firms, <font color=A2ADC6><b>facilitating 8+ speaker events</b></font> and 5 recruitment events

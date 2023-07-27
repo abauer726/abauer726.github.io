@@ -1,13 +1,13 @@
 ---
-date: '2017-12-21'
-title: 'UI Engineer Co-op'
-company: 'Apple'
-location: 'Cupertino, CA'
-range: 'July - December 2017'
-url: 'https://www.apple.com/music/'
+date: '2022-9-21'
+title: 'Energy Data Science Intern'
+company: 'DNV'
+location: 'Oakland, CA'
+range: 'June - September 2022'
+url: 'https://www.dnv.com/'
 ---
 
-- Developed and styled interactive web applications for Apple Music using Ember and SCSS
-- Built and shipped the Apple Music Extension for Facebook Messenger leveraging third-party and internal API integrations
-- Architected and implemented the user interface of Apple Music's embeddable web player widget for in-browser user authorization and full song playback
-- Contributed extensively to the creation of MusicKit JS, a public-facing JavaScript SDK for embedding Apple Music players into web applications
+- Developed new <font color=A2ADC6><b>internal weather data API</b></font> to streamline weather data scraping and analysis for 1,000+ employees
+- Designed <font color=A2ADC6><b>4-tab dashboard</b></font> for a key client, including filters for timeseries, aggregated, and filtered data
+- Ensured that development <font color=A2ADC6><b>aligned with project scope</b></font> by seeking feedback from the product team and stakeholders
+- Educated 200+ employees on energy efficiency’s technical and economic potential by leading department meeting
