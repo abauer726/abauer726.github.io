@@ -1,10 +1,10 @@
 [Link to site](https://abauer726.github.io/)
 
-# Hi there! Welcome to my personal website.
+# Hi there! Welcome to my personal website repository.
 
 ### This website is a work in progress. If you notice a bug, please let me know and I will fix it!
 
-This website was coded from scratch using HTML, CSS, and Gatsby. The code framework was forked and adapted from Brittany Chiang, who developed [this](https://brittanychiang.com) beautiful website. Thank you, Brittany!
+The website was coded from scratch using HTML, CSS, and Gatsby. Code framework was forked and adapted from Brittany Chiang, who developed [this](https://brittanychiang.com) beautiful website. Thank you, Brittany!
 
 ## 🎨 Color Reference
 
