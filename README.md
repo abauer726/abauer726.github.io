@@ -2,9 +2,9 @@
 
 # Hi there! Welcome to my personal website.
 
-### This website is a work in progress. If you're seeing this message, it means that I haven't finished building the website yet. 
+### This website is a work in progress. If you notice a bug, please let me know and I will fix it!
 
-Because I don't expect many viewers in the early stages, I decided to focus on deploying the website first to make sure it works. I am working backwards, updating code until it contains all of my content. The code framework was forked from Brittany Chiang, who developed [this](https://brittanychiang.com) beautiful website. Thank you, Brittany!
+This website was coded from scratch using HTML, CSS, and Gatsby. The code framework was forked and adapted from Brittany Chiang, who developed [this](https://brittanychiang.com) beautiful website. Thank you, Brittany!
 
 ## 🎨 Color Reference
 

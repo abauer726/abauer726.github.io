@@ -19,7 +19,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'Anna Bauer', //may be wrong , might be Brittany Chiang for this and the next line
+        name: 'Anna Bauer',
         short_name: 'Anna Bauer',
         start_url: '/',
         background_color: config.colors.darkNavy,
