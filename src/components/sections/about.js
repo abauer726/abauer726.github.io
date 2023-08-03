@@ -137,25 +137,25 @@ const About = () => {
             <p>
               Hello! I'm Anna Bauer, a recent graduate from UC Santa Barbara with a B.A. in
               Economics and a B.S. in Statistics &amp; Data Science. I love to uncover patterns and
-              use my statistical knowledge to make sense of complex information.
+              use statistics to make sense of complex information.
             </p>
 
             <p>
-              I’ve had the privilege of working for{' '}
+              So far, I've been lucky enough to work for{' '}
               <a href="https://www.countyofsb.org/">the government</a>,{' '}
               <a href="https://shooting-stars-foundation.org/">a non-profit organization</a>, and
               most recently, a large <a href="https://www.dnv.com/">energy engineering company</a>.
             </p>
 
             <p>
-              I also served on the executive board of campus orgs such as{' '}
+              I've also had the chance to lead campus orgs such as{' '}
               <a href="https://datascienceucsb.org/">Data Science UCSB</a> and{' '}
               <a href="https://www.180dc.org/">180 Degrees Consulting</a>.
             </p>
 
             <p>
-              Beyond my professional life, I like to stay active, swimming with a masters team and
-              playing water polo.
+              Beyond my professional life, I enjoy swimming with a local team and playing water
+              polo.
             </p>
 
             <p>Some of my technical skills are:</p>

@@ -384,7 +384,7 @@ const Publications = () => {
                     <div className="project-links">
                       {cta && (
                         <a href={cta} aria-label="Course Link" className="cta">
-                          Learn More
+                          View Manuscript
                         </a>
                       )}
                       {github && (
