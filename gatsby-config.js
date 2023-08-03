@@ -5,7 +5,7 @@ module.exports = {
     title: 'Anna Bauer',
     description:
       'Anna Bauer is a machine learning enthusiast with a passion for integrating data science with business strategy.',
-    siteUrl: 'https://abauer726.github.io', // No trailing slash allowed! annachange
+    siteUrl: 'https://annasinsights.com', // No trailing slash allowed! annachange
     image: '/og.png', // Path to your image you placed in the 'static' folder
   },
   plugins: [

@@ -1,4 +1,4 @@
-[Link to site](https://abauer726.github.io/)
+[Link to site](https://annasinsights.com/)
 
 # Hi there! Welcome to my personal website repository.
 
