@@ -26,7 +26,7 @@ module.exports = {
       url: '/#jobs',
     },
     {
-      name: 'Work',
+      name: 'Projects',
       url: '/#projects',
     },
     {
@@ -39,6 +39,7 @@ module.exports = {
     green: '#64ffda',
     navy: '#0a192f',
     darkNavy: '#020c1b',
+    white: '#FFFFFF',
   },
 
   srConfig: (delay = 200, viewFactor = 0.25) => ({
