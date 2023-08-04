@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: https://abauer726.github.io/sitemap-index.xml
-Host: https://abauer726.github.io
+Sitemap: https://annasinsights.com/sitemap-index.xml
+Host: https://annasinsights.com
