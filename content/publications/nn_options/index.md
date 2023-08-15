@@ -3,7 +3,7 @@ date: '1'
 title: 'Neural Networks for American Option Pricing'
 cover: './nn_cover.png'
 github: 'https://github.com/abauer726/nn_options'
-cta: 'https://drive.google.com/file/d/164fSguM7SaI5YM3wLbETPBRvAUccXXvm/view?usp=drive_link'
+cta: 'https://drive.google.com/file/d/164fSguM7SaI5YM3wLbETPBRvAUccXXvm/view?usp=sharing'
 tech:
   - Python
   - TensorFlow
