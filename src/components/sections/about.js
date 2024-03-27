@@ -135,16 +135,17 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! I'm Anna Bauer, a recent graduate from UC Santa Barbara with a B.A. in
-              Economics and a B.S. in Statistics &amp; Data Science. I love to uncover patterns and
-              use statistics to make sense of complex information.
+              Hello! I'm Anna, a Deloitte analyst with a background in data science and strategy
+              consulting. I enjoy uncovering patterns and using data visualization to transform data
+              into actionable insights.
             </p>
 
             <p>
               So far, I've been lucky enough to work for{' '}
-              <a href="https://www.countyofsb.org/">the government</a>,{' '}
-              <a href="https://shooting-stars-foundation.org/">a non-profit organization</a>, and
-              most recently, a large <a href="https://www.dnv.com/">energy engineering company</a>.
+              <a href="https://www.countyofsb.org/">Santa Barbara County</a>,{' '}
+              <a href="https://shooting-stars-foundation.org/">a non-profit organization</a>, a
+              large <a href="https://www.dnv.com/">energy engineering company</a>, and most
+              recently, <a href="https://www.deloitte.com/">Deloitte</a>.
             </p>
 
             <p>
