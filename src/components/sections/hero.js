@@ -66,8 +66,7 @@ const Hero = () => {
     <>
       <p>
         I'm a machine learning enthusiast with a passion for integrating data science with business
-        strategy. I recently graduated from UC Santa Barbara with degrees in Statistics &amp; Data
-        Science and Economics.
+        strategy.
       </p>
     </>
   );
