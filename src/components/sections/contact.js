@@ -64,8 +64,8 @@ const Contact = () => {
         email :)
       </p>
 
-      <a className="email-link" href={'mailto:annbauer@deloitte.com'}>
-        annbauer@deloitte.com
+      <a className="email-link" href={'mailto:abauer726@gmail.com'}>
+        abauer726@gmail.com
       </a>
     </StyledContactSection>
   );
