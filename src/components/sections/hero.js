@@ -1,8 +1,9 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
 import styled from 'styled-components';
 import { navDelay, loaderDelay } from '@utils';
 import { usePrefersReducedMotion } from '@hooks';
+import anime from 'animejs';
 
 const StyledHeroSection = styled.section`
   ${({ theme }) => theme.mixins.flexCenter};
@@ -44,11 +45,84 @@ const StyledHeroSection = styled.section`
     ${({ theme }) => theme.mixins.bigButton};
     margin-top: 50px;
   }
+
+  .typing-container {
+    display: inline;
+    white-space: nowrap;
+  }
+
+  .typing-text {
+    position: relative;
+    width: auto;
+    display: inline;
+    min-height: 1.2em;
+  }
+  
+  .typing-cursor {
+    display: inline-block;
+    position: relative;
+    margin-left: 2px;
+    animation: blink 1s infinite;
+  }
+  
+  @keyframes blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0; }
+  }
 `;
+
+const TypeAnimation = ({ phrases }) => {
+  const [currentPhrase, setCurrentPhrase] = useState('');
+  const [isDeleting, setIsDeleting] = useState(false);
+  const [phraseIndex, setPhraseIndex] = useState(0);
+  const [typingSpeed, setTypingSpeed] = useState(100);
+  
+  useEffect(() => {
+    const timeout = setTimeout(() => {
+      const current = phrases[phraseIndex];
+      
+      if (isDeleting) {
+        setCurrentPhrase(prev => prev.substring(0, prev.length - 1));
+        setTypingSpeed(40);
+      } else {
+        setCurrentPhrase(prev => current.substring(0, prev.length + 1));
+        setTypingSpeed(100);
+      }
+      
+      if (!isDeleting && currentPhrase === current) {
+        // Start deleting after a pause
+        setTimeout(() => setIsDeleting(true), 1500);
+      } else if (isDeleting && currentPhrase === '') {
+        setIsDeleting(false);
+        setPhraseIndex((phraseIndex + 1) % phrases.length);
+        // Short pause after deleting before typing next phrase
+        setTypingSpeed(500);
+      }
+    }, typingSpeed);
+    
+    return () => clearTimeout(timeout);
+  }, [currentPhrase, isDeleting, phraseIndex, phrases, typingSpeed]);
+  
+  return (
+    <span className="typing-container">
+      <span className="typing-text">{currentPhrase}</span>
+      <span className="typing-cursor">|</span>
+    </span>
+  );
+};
 
 const Hero = () => {
   const [isMounted, setIsMounted] = useState(false);
   const prefersReducedMotion = usePrefersReducedMotion();
+
+  // Phrases to cycle through in the typing animation
+  const typingPhrases = [
+    "build things.",
+    "explore new tech.",
+    "code with GenAI.",
+    "think outside the box.",
+    "embrace the future."
+  ];
 
   useEffect(() => {
     if (prefersReducedMotion) {
@@ -61,12 +135,17 @@ const Hero = () => {
 
   const one = <h1>Hi! My name is</h1>;
   const two = <h2 className="big-heading">Anna Bauer.</h2>;
-  const three = <h3 className="big-heading">I love all things data science.</h3>;
+  const three = (
+    <h3 className="big-heading">
+      <span style={{ fontSize: '0.85em', opacity: 0.95 }}>
+        I like to <span style={{ color: 'var(--green)', fontStyle: 'italic' }}><TypeAnimation phrases={typingPhrases} /></span>
+      </span>
+    </h3>
+  );
   const four = (
     <>
       <p>
-        I'm a machine learning enthusiast with a passion for integrating data science with business
-        strategy.
+        I'm a Bay Area data enthusiast excited to help shape the future of GenAI and ML.
       </p>
     </>
   );
