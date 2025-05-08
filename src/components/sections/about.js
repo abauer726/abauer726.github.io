@@ -149,12 +149,6 @@ const About = () => {
             </p>
 
             <p>
-              I've also had the chance to lead campus orgs such as{' '}
-              <a href="https://datascienceucsb.org/">Data Science UCSB</a> and{' '}
-              <a href="https://www.180dc.org/">180 Degrees Consulting</a>.
-            </p>
-
-            <p>
               Beyond my professional life, I enjoy swimming with a local team and playing water
               polo.
             </p>
