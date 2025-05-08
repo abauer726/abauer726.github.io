@@ -19,7 +19,10 @@ jobs:
           cache: 'npm'
 
       - name: Install dependencies
-        run: npm ci
+        run: |
+          npm --version
+          node --version
+          npm install
 
       - name: Build
         run: npm run build
